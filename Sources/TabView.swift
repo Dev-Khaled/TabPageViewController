@@ -104,10 +104,10 @@ internal class TabView: UIView {
                 constant: option.tabHeight - currentBarViewHeightConstraint.constant)
 
             let left = NSLayoutConstraint(item: currentBarView,
-                attribute: .leading,
+                attribute: .left,
                 relatedBy: .equal,
                 toItem: collectionView,
-                attribute: .leading,
+                attribute: .left,
                 multiplier: 1.0,
                 constant: 0.0)
             currentBarViewLeftConstraint = left
