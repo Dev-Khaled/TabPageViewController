@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "TabPageViewController",
+    platforms: [.iOS(.v13)],
     products: [
         .library(name: "TabPageViewController", targets: ["TabPageViewController"])
     ],
