@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29CB708C27DE363400292E34 /* MyFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CB708B27DE363400292E34 /* MyFramework.swift */; };
 		4C2122B01E6E8AF300572DBD /* TabCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2122AA1E6E8AF300572DBD /* TabCollectionCell.swift */; };
 		4C2122B11E6E8AF300572DBD /* TabPageOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2122AC1E6E8AF300572DBD /* TabPageOption.swift */; };
 		4C2122B21E6E8AF300572DBD /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2122AE1E6E8AF300572DBD /* TabView.swift */; };
@@ -58,6 +59,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		29CB708B27DE363400292E34 /* MyFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFramework.swift; sourceTree = "<group>"; };
 		4C2122AA1E6E8AF300572DBD /* TabCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabCollectionCell.swift; sourceTree = "<group>"; };
 		4C2122AB1E6E8AF300572DBD /* TabCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabCollectionCell.xib; sourceTree = "<group>"; };
 		4C2122AC1E6E8AF300572DBD /* TabPageOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabPageOption.swift; sourceTree = "<group>"; };
@@ -194,6 +196,7 @@
 				OBJ_9 /* TabPageViewController.swift */,
 				4C2122AE1E6E8AF300572DBD /* TabView.swift */,
 				4C2122AF1E6E8AF300572DBD /* TabView.xib */,
+				29CB708B27DE363400292E34 /* MyFramework.swift */,
 			);
 			name = TabPageViewController;
 			path = Sources;
@@ -337,6 +340,7 @@
 				OBJ_21 /* TabPageViewController.swift in Sources */,
 				4C2122B21E6E8AF300572DBD /* TabView.swift in Sources */,
 				4C2122B01E6E8AF300572DBD /* TabCollectionCell.swift in Sources */,
+				29CB708C27DE363400292E34 /* MyFramework.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

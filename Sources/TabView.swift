@@ -43,7 +43,7 @@ internal class TabView: UIView {
        super.init(frame: CGRect.zero)
         self.option = option
         self.isInfinity = isInfinity
-        Bundle(for: TabView.self).loadNibNamed("TabView", owner: self, options: nil)
+        MyFramework.bundle.loadNibNamed("TabView", owner: self, options: nil)
         addSubview(contentView)
         contentView.backgroundColor = option.tabBackgroundColor.withAlphaComponent(option.tabBarAlpha)
 
@@ -82,7 +82,7 @@ internal class TabView: UIView {
         contentView.translatesAutoresizingMaskIntoConstraints = false
         self.addConstraints([top, left, bottom, right])
 
-        let bundle = Bundle(for: TabView.self)
+        let bundle = MyFramework.bundle
         let nib = UINib(nibName: TabCollectionCell.cellIdentifier(), bundle: bundle)
         collectionView.register(nib, forCellWithReuseIdentifier: TabCollectionCell.cellIdentifier())
         cellForSize = nib.instantiate(withOwner: nil, options: nil).first as? TabCollectionCell
